@@ -21,22 +21,26 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     position: relative;
 }
+/* Tableau des scores */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 .score-container {
+    width: 100px;
     text-align: center;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.5rem;
 }
 
-#score-x {
-    color: #ff0000;
-    order : -1;
-}
-
-#score-o {
-    color: #0000ff;
-    order: 1;
+.score-container h3 {
+    margin-bottom: 10px;
 }
 h1 {
     margin-bottom: 20px;
@@ -44,7 +48,6 @@ h1 {
 }
 
 .game-board {
-    order: 0;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
