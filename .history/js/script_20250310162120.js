@@ -8,7 +8,7 @@ rulesBtn.addEventListener('click', () => {
     popup.style.display = 'flex';
 });
 
-
+// Fermer la popup
 closePopupBtn.addEventListener('click', () => {
     popup.style.display = 'none';
 });
