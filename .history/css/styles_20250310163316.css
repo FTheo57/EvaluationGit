@@ -22,29 +22,13 @@ body {
     position: relative;
 }
 
-.score-container {
-    text-align: center;
-    padding: 15px;
-    border-radius: 8px;
-    margin: 10px;
-}
-
-#score-x {
-    color: #ff0000;
-    order : -1;
-}
-
-#score-o {
-    color: #0000ff;
-    order: 1;
-}
+.
 h1 {
     margin-bottom: 20px;
     font-size: 2rem;
 }
 
 .game-board {
-    order: 0;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);

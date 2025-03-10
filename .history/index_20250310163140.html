@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="/css/styles.css"
+</head>
+<body>
+    <div class="game-wrapper">
+        
+        <div class="score-container" id="score-x">
+            <h3>X</h3>
+            <p id="score-x-value">0</p>
+        </div>
+    <div class="container">
+        <button class="rules-btn" id="rules-btn">?</button> 
+        <h1>Tic-Tac-Toe</h1>
+        <div class="game-board" id="game-board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div class="score-container" id="score-o">
+            <h3>O</h3>
+            <p id="score-o-value">0</p>
+        </div>
+    </div>
+        <button id="reset">Réinitialiser</button>
+        <div class="popup" id="popup">
+            <div class="popup-content">
+                <h2>Règles du Jeu</h2>
+                <ul>
+                    <li>Deux joueurs jouent à tour de rôle.</li>
+                    <li>Chaque joueur marque son symbole (X ou O) dans une cellule vide.</li>
+                    <li>Le premier joueur à aligner trois de ses symboles horizontalement, verticalement ou en diagonale gagne.</li>
+                    <li>Si toutes les cellules sont remplies sans gagnant, c'est un match nul.</li>
+                </ul>
+                <button id="close-popup">Fermer</button>
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="/js/script.js"></script> 
+</body>
+</html>

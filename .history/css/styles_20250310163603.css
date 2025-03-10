@@ -31,12 +31,10 @@ body {
 
 #score-x {
     color: #ff0000;
-    order : -1;
 }
 
 #score-o {
     color: #0000ff;
-    order: 1;
 }
 h1 {
     margin-bottom: 20px;
@@ -44,7 +42,6 @@ h1 {
 }
 
 .game-board {
-    order: 0;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
