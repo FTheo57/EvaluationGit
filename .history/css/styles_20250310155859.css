@@ -43,7 +43,7 @@ h1 {
     align-items: center;
     font-size: 2rem;
     cursor: pointer;
-    border: 2px solid #101010;
+    border: 2px solid #ddd;
     border-radius: 8px;
     transition: background-color 0.3s ease;
 }
